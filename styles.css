@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+form label {
+  display: block;
+  margin-top: 10px;
+}
+
+form input,
+form select {
+  width: 100%;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+form button {
+  margin-top: 10px;
+}
+
+.expense-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+.expense-item .expense-actions {
+  display: flex;
+}
+
+.expense-item .expense-actions button {
+  margin-left: 5px;
+}
